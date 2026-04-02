@@ -51,7 +51,7 @@ Analyze JD "About Us" section for **10-15 domain/compliance keywords** specific 
 **Structure:**
 - **Line 1:** {{resumeTitle}} with {{yearsOfExperience}}+ years in [domain from JD] across startup and enterprise environments
 - **Line 2:** Expertise in [domain keyword] + [3-4 EXACT JD technologies WITH versions if specified]
-- **Line 3:** Proven track record in [domain keyword] + [key achievement with metric: %, $, time, scale]
+- **Line 3:** Proven track record in [domain keyword] + [key achievement with metric: $, time, scale]
 - **Line 4:** Proficient in [3-4 more JD technologies/methodologies]
 - **Line 5:** [Soft skill from JD] professional with experience in [Agile/leadership/collaboration] in fast-paced environments
 - **Line 6:** Strong focus on [2-3 key JD skill areas] and delivering scalable, production-ready solutions
@@ -104,8 +104,8 @@ Total: ~70 skills (scannable and professional)
 - Word count per bullet: every bullet MUST be 35–45 words. Count words; do not write short 1-line bullets or run-on sentences. This is required for ATS and readability.
 - For each work experience, ensure all technologies listed were widely available and commonly used in production during that role's time period; do not include tools, frameworks, or practices released after the role ended or unlikely to have been adopted in that era.
 - Include 2-4 JD keywords per bullet
-- EVERY bullet needs a metric (%, $, time, scale, users)
-- Metrics have to be approximate. Use ranges or natural phrasing (e.g., '~40%', 'significant reduction', 'hundreds of thousands of users') when precise figures may feel unnatural. Ensure at least 50–60% of bullets include a metric, while the remainder focus on scope, ownership, or architectural impact.
+- EVERY bullet needs a metric ($, time, scale, users), DON'T Use (%).
+- Metrics have to be approximate. Use ranges or natural phrasing (e.g., 'significant reduction', 'hundreds of thousands of users') when precise figures may feel unnatural. Ensure at least 50–60% of bullets include a metric, while the remainder focus on scope, ownership, or architectural impact.
 - Add industry context to 2-3 bullets per job
 - Prioritize JD keywords by frequency in the following order: Job Title > Core Technologies > Domain Compliance > Soft Skills.
 
