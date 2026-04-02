@@ -1,0 +1,42 @@
+{
+    "name": "Michelle Barbu",
+    "email": "michellemarintech0912@gmail.com",
+    "title": "Senior Software Engineer",
+    "location": "Cluj-Napoca, Cluj, Romania",
+    "postalCode": "400084",
+    "phone": "+40 358 667038",
+    "linkedin": "https://www.linkedin.com/in/michelle-barbu-93bba73b4/]",
+    "github": "",
+    "education": [
+      {
+        "degree": "Bachelor's degree in Computer Science",
+        "school": "Nanyang Technological Univerisity",
+        "start_year": "2014",
+        "end_year": "2017"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Capgemini",
+        "title": "Senior Software Engineer",
+        "start_date": "Jan 2023",
+        "end_date": "Dec 2025",
+        "location": "Remote"
+      },
+      {
+        "company": "Temporal Technologies",
+        "title": "Software Engineer",
+        "start_date": "Feb 2020",
+        "end_date": "Dec 2022",
+        "location": "Remote"
+      },
+      {
+        "company": "Fotunesoft IT Innovations",
+        "title": "Software Developer",
+        "start_date": "Aug 2017",
+        "end_date": "Jan 2020",
+        "location": "Singapore, Singapore"
+      }
+    ]
+  }
+  

@@ -1,0 +1,42 @@
+{
+    "name": "Johana Velasquez",
+    "email": "johana.tech.0905@outlook.com",
+    "title": "Senior Software Engineer",
+    "location": "Valledupar, Cesar, Colombia",
+    "postalCode": "200001",
+    "phone": " +57 320 667 0383",
+    "linkedin": "https://www.linkedin.com/in/velasquez-johana-steffany-1122803b6/",
+    "github": "",
+    "education": [
+      {
+        "degree": "Bachelor's degree in Computer Science",
+        "school": "Federal University of Minas Gerais",
+        "start_year": "Dec 2016",
+        "end_year": "Feb 2013"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Curseria",
+        "title": "Senior Software Engineer",
+        "start_date": "Jan 2023",
+        "end_date": "Dec 2025",
+        "location": "Remote"
+      },
+      {
+        "company": "EPRI",
+        "title": "Software Engineer",
+        "start_date": "May 2020",
+        "end_date": "Dec 2022",
+        "location": "Remote"
+      },
+      {
+        "company": "Peninsula T.V",
+        "title": "Full Stack Engineer",
+        "start_date": "Mar 2018",
+        "end_date": "Apr 2014",
+        "location": "Maringa, Brazil"
+      }
+    ]
+  }
+  
