@@ -1,0 +1,51 @@
+{
+    "name": "Annie Chang",
+    "title": "Senior Full Stack Developer",
+    "email": "changannie31@outlook.com",
+    "phone": "+1 (650) 442-4132",
+    "location": "Dublin, California, United States",
+    "address": "",
+    "postalCode": "",
+    "linkedin": "https://www.linkedin.com/in/anne-chang",
+    "website": "",
+    "github": "",
+    "experience": [
+      {
+        "company": "Booz Allen Hamilton",
+        "title": "Senior Full Stack Developer",
+        "location": "Remote",
+        "start_date": "Mar 2023",
+        "end_date": "Present"
+      },
+      {
+        "company": "Feather",
+        "title": "Full Stack Developer",
+        "location": "Remote",
+        "start_date": "Sep 2021",
+        "end_date": "Jun 2022"
+      },
+      {
+        "company": "Los Angeles Capital Management and Equity Research, Inc",
+        "title": "Full Stack Developer",
+        "location": "Remote",
+        "start_date": "Feb 2018",
+        "end_date": "Aug 2021"
+      },
+      {
+        "company": "Concept Art House",
+        "title": "Junior Software Engineer",
+        "location": "San Francisco, California, United States",
+        "start_date": "Nov 2016",
+        "end_date": "Oct 2017"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "University of California, Davis",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "resumeStyle": "executive"
+}
