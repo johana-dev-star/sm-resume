@@ -51,7 +51,7 @@ Analyze JD "About Us" section for **10-15 domain/compliance keywords** specific 
 **Structure:**
 - **Line 1:** {{resumeTitle}} with {{yearsOfExperience}}+ years in [domain from JD] across startup and enterprise environments
 - **Line 2:** Expertise in [domain keyword] + [3-4 EXACT JD technologies WITH versions if specified]
-- **Line 3:** Proven track record in [domain keyword] + [key achievement with metric: %, $, time, scale]
+- **Line 3:** Proven track record in [domain keyword]
 - **Line 4:** Proficient in [3-4 more JD technologies/methodologies]
 - **Line 5:** [Soft skill from JD] professional with experience in [Agile/leadership/collaboration] in fast-paced environments
 - **Line 6:** Strong focus on [2-3 key JD skill areas] and delivering scalable, production-ready solutions
@@ -96,26 +96,26 @@ Total: ~70 skills (scannable and professional)
 
 ---
 
-### **5. EXPERIENCE** ({{experienceCount}} entries, 6-8 bullets each)
+### **5. EXPERIENCE** ({{experienceCount}} entries, 4-8 bullets each)
 
 **STRICT Requirements (must be followed):**
 - Generate exactly {{experienceCount}} job entries; one entry per job in the work history—no more, no fewer.
-- Bullet count per job: most recent role = 8 bullets, second role = 7 or 8 bullets, older roles = 6 or 7 bullets. Each job must have at least 6 and at most 8 bullets.
+- Bullet count per job: most recent role = 8 bullets, second role = 7 or 8 bullets, older roles = 4 bullets. Each job must have at least 4 and at most 8 bullets.
 - Word count per bullet: every bullet MUST be 35–45 words. Count words; do not write short 1-line bullets or run-on sentences. This is required for ATS and readability.
 - For each work experience, ensure all technologies listed were widely available and commonly used in production during that role's time period; do not include tools, frameworks, or practices released after the role ended or unlikely to have been adopted in that era.
 - Include 2-4 JD keywords per bullet
-- EVERY bullet needs a metric (%, $, time, scale, users)
-- Metrics have to be approximate. Use ranges or natural phrasing (e.g., '~40%', 'significant reduction', 'hundreds of thousands of users') when precise figures may feel unnatural. Ensure at least 50–60% of bullets include a metric, while the remainder focus on scope, ownership, or architectural impact.
+- bullet can include a metric ($, time, scale, users), DON'T Use (%).
+- Metrics have to be approximate. Use ranges or natural phrasing (e.g., 'significant reduction', 'hundreds of thousands of users') when precise figures may feel unnatural. Ensure 10–20% of bullets include a metric, while the remainder focus on scope, ownership, or architectural impact.
 - Add industry context to 2-3 bullets per job
 - Prioritize JD keywords by frequency in the following order: Job Title > Core Technologies > Domain Compliance > Soft Skills.
 
 **Bullet length (35–45 words)—examples:**
 - Too short (❌ ~15 words): "Built APIs for the payment team. Improved latency and reliability."
-- Correct (✅ 35–40 words): "Architected REST and GraphQL APIs for the payment platform using Node.js and PostgreSQL, improving p99 latency by 30% and enabling 2M+ daily transactions with 99.9% uptime for fintech clients."
+- Correct (✅ 35–40 words): "Architected REST and GraphQL APIs for the payment platform using Node.js and PostgreSQL, improving p99 latency and enabling 2M+ daily transactions with 99.9% uptime for fintech clients."
 - Correct (✅ 40–45 words): "Led migration of legacy services to Kubernetes and Terraform, reducing deployment time by 60% and standardizing CI/CD across 5 teams; implemented monitoring and alerting that cut incident response time by half."
 
 **Bullet Structure:**
-[Action Verb] + [JD Technology] + [what you built] + [business impact] + [metric]
+[Action Verb] + [JD Technology] + [what you built] + [business impact] 
 
 **Action Verbs:**
 ✅ USE: Architected, Engineered, Designed, Built, Developed, Implemented, Optimized, Enhanced, Led, Spearheaded, Automated, Deployed
@@ -129,7 +129,7 @@ Total: ~70 skills (scannable and professional)
 
 
 **Example Bullet (with domain keywords):**
-"Architected secure payment processing system using PCI-DSS compliant infrastructure with Node.js 20, PostgreSQL, and Redis, implementing fraud detection algorithms and tokenization that processed $500M+ annually while reducing chargebacks by 40% and maintaining 99.99% uptime for 2M+ users."
+"Architected secure payment processing system using PCI-DSS compliant infrastructure with Node.js 20, PostgreSQL, and Redis, implementing fraud detection algorithms and tokenization that processed $500M+ annually while reducing chargebacks and maintaining 99.99% uptime."
 
 ---
 
@@ -146,11 +146,10 @@ Total: ~70 skills (scannable and professional)
 - Natural, human-written flow (not robotic)
 - Professional tone throughout
 - Varied action verbs
-- Strong metrics in every bullet
 - Domain keywords integrated naturally
 
 ---
 
 Return ONLY valid JSON: {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2",...]}]}
-Each experience entry must have 6-8 bullets in "details"; each bullet must be 35-45 words.
+Each experience entry must have 4-8 bullets in "details"; each bullet must be 35-45 words.
 
