@@ -128,7 +128,7 @@ Cloud & Infrastructure:
 Testing & Quality:
 Security:
 Tools & DevOps:
-Architecture & Domain:
+
 
 ---
 
