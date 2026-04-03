@@ -27,160 +27,206 @@ EDUCATION:
 
 ## INSTRUCTIONS:
 
-### 1. ATS + SKILL INTELLIGENCE (ENHANCED)
+Here’s the **final upgraded version** — optimized for **perfect ATS generation + zero JSON errors + maximum consistency**:
 
-Extract:
+---
 
-A. TOP 10–15 EXACT keywords from job description (tools, frameworks, concepts)
+## **ULTIMATE ATS PROMPT (PRODUCTION SAFE)**
 
-B. DOMAIN + INDUSTRY KEYWORDS (10–15):
-- From company description, responsibilities, and industry context
+### **OUTPUT RULE (CRITICAL)**
 
-C. COMPLEMENTARY SKILLS (CRITICAL FIX):
-- Add 25–40 relevant skills NOT explicitly in JD but highly related
-- Use candidate seniority + industry standards
-- Include adjacent tools, ecosystems, best practices, and widely used alternatives
+Return ONLY valid JSON.
+No markdown. No comments. No explanations.
+
+Format:
+
+```
+{"title":"...","summary":"...","skills":{"Category":["Skill1"]},"experience":[{"title":"...","details":["..."]}]}
+```
+
+---
+
+## **1. ATS + SKILL INTELLIGENCE**
+
+### **A. EXACT JD KEYWORDS (MANDATORY)**
+
+* Extract 10–15 EXACT phrases from job description
+* MUST match wording exactly
+* Include tools, responsibilities, and concepts
+
+---
+
+### **B. DOMAIN + INDUSTRY KEYWORDS (10–15)**
+
+* Extract from company/product context
+* Examples:
+
+  * SaaS → multi-tenant, scalability, user-facing features
+  * Sustainability → carbon emissions, climate tech, analytics
+  * Fintech → compliance, transactions, auditability
+
+---
+
+### **C. COMPLEMENTARY SKILLS (CRITICAL)**
+
+* Add 25–40 related skills NOT in JD
+* Based on:
+
+  * Seniority
+  * Ecosystem standards
+  * Adjacent tooling
 
 Examples:
-- If JD has React → include Redux, Zustand, React Query
-- If Node.js → include Express, NestJS, REST, GraphQL
-- If AWS → include Lambda, S3, IAM, CloudWatch
-- If Data → include ETL, pipelines, Spark, Airflow
+
+* React → Redux, Zustand, React Query
+* Python → Django, Celery
+* Cloud → Docker, Kubernetes, Terraform
+* Data → Kafka, Spark, Airflow
 
 ---
 
-### ATS BOOST RULE (UPDATED)
+## **2. ATS BOOST RULE (STRICT)**
 
-- Top 10 JD keywords MUST appear:
-  - 1x in Summary
-  - 1x in Skills
-  - 1–2x in Experience
+* Top 10 JD keywords MUST appear:
 
-- Complementary skills MUST dominate Skills section (40–60%)
+  * 1× Summary
+  * 1× Skills
+  * 1–2× Experience
 
-- DO NOT restrict skills to JD only
+* Skills distribution:
 
----
+  * 40% JD keywords
+  * 60% complementary
 
-### 2. TITLE
-
-Use EXACT title: {{resumeTitle}}
-Do NOT modify
+* NEVER restrict to JD only
 
 ---
 
-### 3. SUMMARY (5–6 lines)
+## **3. TITLE**
 
-Structure:
+* Use EXACT: `{{resumeTitle}}`
+* Do NOT modify
 
-- Line 1: {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
-- Line 2: Expertise in [domain keyword] + [3–4 JD technologies]
-- Line 3: Proven track record in [impact + domain keyword]
-- Line 4: Proficient in [mix of JD + complementary tools]
-- Line 5: Collaboration + Agile + communication
-- Line 6: Focus on scalability, performance, delivery
+---
+
+## **4. SUMMARY (STRICT)**
+
+6 lines EXACT:
+
+1. {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
+2. Expertise in [domain keyword] + [3–4 JD tools]
+3. Proven track record in [impact + domain keyword]
+4. Proficient in [JD + complementary tools]
+5. Experience working in Agile teams
+6. Focus on scalability, performance, and delivery
 
 Rules:
 
-- Use 8–12 JD keywords
-- Include complementary ecosystem naturally
-- Avoid keyword stuffing
+* Include 8–12 JD keywords
+* Natural flow only
+* No repetition
 
 ---
 
-### 4. SKILLS (CRITICAL FIX SECTION)
+## **5. SKILLS (STRICT)**
 
-REQUIREMENTS:
+### REQUIREMENTS:
 
-- 60 ~ 80 TOTAL SKILLS
-- 6–8 categories
-- EACH category: 10–15 skills
+* 60–80 total skills
+* 6–8 categories
+* 8–12 skills per category
 
-DISTRIBUTION:
+### DISTRIBUTION:
 
-- 40% JD keywords
-- 60% complementary + ecosystem tools
+* 40% JD
+* 60% complementary
 
-MANDATORY RULES:
+### REQUIRED COVERAGE:
 
-- Include FULL STACK ECOSYSTEM (not just JD):
-  - Frameworks
-  - Libraries
-  - DevOps tools
-  - Testing tools
-  - Monitoring tools
-  - Security practices
-  - Architecture patterns
+* Frontend
+* Backend
+* Databases
+* Cloud & Infrastructure
+* Testing & Quality
+* Security
+* Tools & DevOps
 
-- Include BOTH:
-  - Direct tools (React, Node, AWS)
-  - Concepts (Microservices, REST, CI/CD, Event-driven)
+### RULES:
 
-- Avoid duplicates
-- DON'T include soft skills in forms of  v + "~ion"|"~ing" like "Programming", "Communication" 
-
-SUGGESTED STRUCTURE:
-
-Frontend:
-Backend:
-Databases:
-Cloud & Infrastructure:
-Testing & Quality:
-Security:
-Tools & DevOps:
-
+* Include tools + concepts
+* No duplicates
+* No soft skills
+* Use industry-standard names only
 
 ---
 
-### 5. EXPERIENCE (STRICT)
+## **6. EXPERIENCE (STRICT)**
 
-- Generate exactly {{experienceCount}} roles
+* Exactly `{{experienceCount}}` roles
 
-Bullet rules:
+### BULLET COUNT:
 
-- Bullet count per job: most recent role = 8 bullets, second role = 7 or 8 bullets, older roles = 4 bullets. Each job must have at least 4 and at most 8 bullets.
-- 25–35 words each
-- 2–3 JD keywords per bullet
-- Mix JD + complementary tools naturally
-- NO repetitive sentence structures
+* Most recent → EXACTLY 8
+* Second → 7–8
+* Older → EXACTLY 4
+* NEVER <4 or >8
 
-MANDATORY VARIATION:
+### BULLET RULES:
 
-Each bullet must focus on DIFFERENT dimension:
-- system design
-- performance optimization
-- scalability
-- testing
-- monitoring
-- collaboration
-- business impact
+* 25–35 words each
+* 2–3 JD keywords per bullet
+* Mix JD + complementary tools
+* Strong action verbs
+* No repeated phrasing
 
 ---
 
-### 🚫 ANTI-REPETITION RULES
+## **7. MANDATORY VARIATION (CRITICAL)**
 
-- No repeated sentence patterns
-- No template phrasing
-- Each role must feel like different project scope
+Each bullet must cover a DIFFERENT angle:
 
----
-
-### FINAL QUALITY CHECK
-
-Ensure:
-
-- Skills section is BROAD and DEEP (not JD-limited)
-- All skills in Skills section clearly included
-- No keyword stuffing
-- Natural human tone
-- ATS keyword coverage satisfied
+* System design
+* Scalability
+* Performance
+* Data pipelines
+* Security
+* Testing
+* Monitoring
+* Collaboration
+* Business impact
 
 ---
 
-## OUTPUT FORMAT
+## **8. ANTI-REPETITION**
 
-Return ONLY valid JSON:
+* No repeated sentence structures
+* No templated phrases
+* Each role must feel unique
 
-{"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2"]}]}
+---
 
-Each bullet must be 25–35 words.
+## **9. HARD VALIDATION RULES (VERY IMPORTANT)**
+
+Before returning output, ensure:
+
+* JSON is VALID (no trailing commas, no syntax errors)
+* All arrays properly closed
+* Quotes properly escaped
+* No duplicate skills
+* Bullet counts EXACTLY follow rules
+* Each bullet is 25–35 words
+* Skills count ≥ 60
+* Categories ≥ 6
+
+---
+
+## **10. FINAL GOAL**
+
+* ATS score ≥ 95%
+* Natural human tone
+* Strong keyword coverage
+* Production-safe JSON
+* No hallucinated technologies outside time period
+
+---
+
