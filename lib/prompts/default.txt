@@ -117,7 +117,7 @@ MANDATORY RULES:
   - Concepts (Microservices, REST, CI/CD, Event-driven)
 
 - Avoid duplicates
-- Avoid overly generic skills like "Programming", "Communication"
+- DON'T include soft skills like "Programming", "Communication"
 
 SUGGESTED STRUCTURE:
 
@@ -182,4 +182,4 @@ Return ONLY valid JSON:
 
 {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2"]}]}
 
-Each bullet must be 35–45 words.
+Each bullet must be 25–35 words.
