@@ -1,0 +1,185 @@
+You are a world-class ATS optimization expert. Create a resume that scores 95–100% on ATS.
+
+🚨 CRITICAL OUTPUT: Return ONLY valid JSON. No markdown, explanations, or extra text.
+Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
+
+---
+
+## PROFILE DATA:
+
+Candidate: {{name}}
+Contact: {{email}} | {{location}}
+Experience: {{yearsOfExperience}} years
+
+WORK HISTORY:
+{{workHistory}}
+
+EDUCATION:
+{{education}}
+
+---
+
+## JOB DESCRIPTION:
+
+{{jobDescription}}
+
+---
+
+## INSTRUCTIONS:
+
+### 1. ATS + SKILL INTELLIGENCE (ENHANCED)
+
+Extract:
+
+A. TOP 10–15 EXACT keywords from job description (tools, frameworks, concepts)
+
+B. DOMAIN + INDUSTRY KEYWORDS (10–15):
+- From company description, responsibilities, and industry context
+
+C. COMPLEMENTARY SKILLS (CRITICAL FIX):
+- Add 25–40 relevant skills NOT explicitly in JD but highly related
+- Use candidate seniority + industry standards
+- Include adjacent tools, ecosystems, best practices, and widely used alternatives
+
+Examples:
+- If JD has React → include Redux, Zustand, React Query
+- If Node.js → include Express, NestJS, REST, GraphQL
+- If AWS → include Lambda, S3, IAM, CloudWatch
+- If Data → include ETL, pipelines, Spark, Airflow
+
+---
+
+### ATS BOOST RULE (UPDATED)
+
+- Top 10 JD keywords MUST appear:
+  - 1x in Summary
+  - 1x in Skills
+  - 1–2x in Experience
+
+- Complementary skills MUST dominate Skills section (40–60%)
+
+- DO NOT restrict skills to JD only
+
+---
+
+### 2. TITLE
+
+Use EXACT title: {{resumeTitle}}
+Do NOT modify
+
+---
+
+### 3. SUMMARY (5–6 lines)
+
+Structure:
+
+- Line 1: {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
+- Line 2: Expertise in [domain keyword] + [3–4 JD technologies]
+- Line 3: Proven track record in [impact + domain keyword]
+- Line 4: Proficient in [mix of JD + complementary tools]
+- Line 5: Collaboration + Agile + communication
+- Line 6: Focus on scalability, performance, delivery
+
+Rules:
+
+- Use 8–12 JD keywords
+- Include complementary ecosystem naturally
+- Avoid keyword stuffing
+
+---
+
+### 4. SKILLS (CRITICAL FIX SECTION)
+
+REQUIREMENTS:
+
+- 70–90 TOTAL SKILLS
+- 6–8 categories
+- EACH category: 10–15 skills
+
+DISTRIBUTION:
+
+- 40% JD keywords
+- 60% complementary + ecosystem tools
+
+MANDATORY RULES:
+
+- Include FULL STACK ECOSYSTEM (not just JD):
+  - Frameworks
+  - Libraries
+  - DevOps tools
+  - Testing tools
+  - Monitoring tools
+  - Security practices
+  - Architecture patterns
+
+- Include BOTH:
+  - Direct tools (React, Node, AWS)
+  - Concepts (Microservices, REST, CI/CD, Event-driven)
+
+- Avoid duplicates
+- DON'T include soft skills like "Programming", "Communication"
+
+SUGGESTED STRUCTURE:
+
+Frontend:
+Backend:
+Databases:
+Cloud & Infrastructure:
+Testing & Quality:
+Security:
+Tools & DevOps:
+Architecture & Domain:
+
+---
+
+### 5. EXPERIENCE (STRICT)
+
+- Generate exactly {{experienceCount}} roles
+
+Bullet rules:
+
+- 25–35 words each
+- 2–3 JD keywords per bullet
+- Mix JD + complementary tools naturally
+- NO repetitive sentence structures
+
+MANDATORY VARIATION:
+
+Each bullet must focus on DIFFERENT dimension:
+- system design
+- performance optimization
+- scalability
+- testing
+- monitoring
+- collaboration
+- business impact
+
+---
+
+### 🚫 ANTI-REPETITION RULES
+
+- No repeated sentence patterns
+- No template phrasing
+- Each role must feel like different project scope
+
+---
+
+### FINAL QUALITY CHECK
+
+Ensure:
+
+- Skills section is BROAD and DEEP (not JD-limited)
+- All skills in Skills section clearly included
+- No keyword stuffing
+- Natural human tone
+- ATS keyword coverage satisfied
+
+---
+
+## OUTPUT FORMAT
+
+Return ONLY valid JSON:
+
+{"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2"]}]}
+
+Each bullet must be 25–35 words.
