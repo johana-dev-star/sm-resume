@@ -27,26 +27,45 @@ EDUCATION:
 
 ## INSTRUCTIONS:
 
-### 1. ATS KEYWORD EXTRACTION (MANDATORY)
+### 1. ATS + SKILL INTELLIGENCE (ENHANCED)
 
-* Extract TOP 10–15 EXACT keywords from the job description (tools, frameworks, concepts)
-* Extract 10–15 domain/compliance keywords from "About Us" or industry context
+Extract:
 
-### ATS BOOST RULE (CRITICAL)
+A. TOP 10–15 EXACT keywords from job description (tools, frameworks, concepts)
 
-* Top 10 JD keywords MUST appear:
+B. DOMAIN + INDUSTRY KEYWORDS (10–15):
+- From company description, responsibilities, and industry context
 
-  * 1x in Summary
-  * 1x in Skills
-  * 1–2x in Experience
-* Use EXACT wording from JD (no synonyms)
+C. COMPLEMENTARY SKILLS (CRITICAL FIX):
+- Add 25–40 relevant skills NOT explicitly in JD but highly related
+- Use candidate seniority + industry standards
+- Include adjacent tools, ecosystems, best practices, and widely used alternatives
+
+Examples:
+- If JD has React → include Redux, Zustand, React Query
+- If Node.js → include Express, NestJS, REST, GraphQL
+- If AWS → include Lambda, S3, IAM, CloudWatch
+- If Data → include ETL, pipelines, Spark, Airflow
+
+---
+
+### ATS BOOST RULE (UPDATED)
+
+- Top 10 JD keywords MUST appear:
+  - 1x in Summary
+  - 1x in Skills
+  - 1–2x in Experience
+
+- Complementary skills MUST dominate Skills section (40–60%)
+
+- DO NOT restrict skills to JD only
 
 ---
 
 ### 2. TITLE
 
 Use EXACT title: {{resumeTitle}}
-Do NOT modify or invent another title.
+Do NOT modify
 
 ---
 
@@ -54,84 +73,106 @@ Do NOT modify or invent another title.
 
 Structure:
 
-* Line 1: {{resumeTitle}} with {{yearsOfExperience}}+ years in [domain]
-* Line 2: Expertise in [domain keyword] + [3–4 EXACT JD technologies]
-* Line 3: Proven track record in [impact + domain keyword]
-* Line 4: Proficient in [3–4 additional JD technologies]
-* Line 5: Collaboration + Agile + communication
-* Line 6: Focus on scalability, performance, and delivery
+- Line 1: {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
+- Line 2: Expertise in [domain keyword] + [3–4 JD technologies]
+- Line 3: Proven track record in [impact + domain keyword]
+- Line 4: Proficient in [mix of JD + complementary tools]
+- Line 5: Collaboration + Agile + communication
+- Line 6: Focus on scalability, performance, delivery
 
 Rules:
 
-* Use 8–12 JD keywords total
-* Include 3–5 domain keywords
-* Avoid repeated phrases
-* Keep natural and human tone
+- Use 8–12 JD keywords
+- Include complementary ecosystem naturally
+- Avoid keyword stuffing
 
 ---
 
-### 4. SKILLS (60–75 total skills)
+### 4. SKILLS (CRITICAL FIX SECTION)
 
-Rules:
+REQUIREMENTS:
 
-* 6–7 categories
-* 8–12 skills each
-* 70% JD keywords, 30% complementary
-* No version spam
-* Group cloud tools properly
+- 70–90 TOTAL SKILLS
+- 6–8 categories
+- EACH category: 10–15 skills
 
-Suggested categories:
-Frontend, Backend, Databases, Cloud & Infrastructure, Testing, Security, Tools, Domain/Compliance
+DISTRIBUTION:
 
----
+- 40% JD keywords
+- 60% complementary + ecosystem tools
 
-### 🚫 ANTI-REPETITION & QUALITY RULES (STRICT)
+MANDATORY RULES:
 
-1. Each bullet MUST have a unique sentence structure
-2. Use at least 6 different action verbs per role
-3. Do NOT repeat the same phrase across bullets
-4. Avoid repeated patterns like:
+- Include FULL STACK ECOSYSTEM (not just JD):
+  - Frameworks
+  - Libraries
+  - DevOps tools
+  - Testing tools
+  - Monitoring tools
+  - Security practices
+  - Architecture patterns
 
-   * "Built X using Y improving Z"
-   * "Developed scalable systems..."
-5. Each bullet must emphasize a DIFFERENT angle:
+- Include BOTH:
+  - Direct tools (React, Node, AWS)
+  - Concepts (Microservices, REST, CI/CD, Event-driven)
 
-   * architecture, performance, scalability, testing, security, collaboration, business impact
-6. Each role must feel like a DIFFERENT project/domain
-7. Keywords must be distributed naturally (NOT forced)
-8. Each JD keyword max 2–3 times across entire resume
-9. Avoid robotic or template-style writing
+- Avoid duplicates
+- Avoid overly generic skills like "Programming", "Communication"
 
----
+SUGGESTED STRUCTURE:
 
-### 5. EXPERIENCE (STRICT FORMAT)
-
-* Generate exactly {{experienceCount}} roles
-* Most recent: 8 bullets
-* Second: 7–8 bullets
-* Older: 4 bullets
-
-Each bullet MUST:
-
-* Be 35–45 words
-* Include 1–2 JD keywords MAX
-* Be UNIQUE in structure and wording
-* Follow: [Action Verb] + [Tech] + [What you built] + [Impact]
-* Include metrics in ~15% of bullets (no % symbols)
-* Use realistic tools for that time period
+Frontend:
+Backend:
+Databases:
+Cloud & Infrastructure:
+Testing & Quality:
+Security:
+Tools & DevOps:
+Architecture & Domain:
 
 ---
 
-### FINAL QUALITY CHECK (MANDATORY)
+### 5. EXPERIENCE (STRICT)
 
-Before output:
+- Generate exactly {{experienceCount}} roles
 
-* Remove repeated phrases
-* Ensure all bullets are structurally different
-* Ensure natural human writing
-* Ensure ATS keyword coverage is complete
-* Ensure no keyword stuffing
-* Ensure each role shows different scope and impact
+Bullet rules:
+
+- 25–35 words each
+- 2–3 JD keywords per bullet
+- Mix JD + complementary tools naturally
+- NO repetitive sentence structures
+
+MANDATORY VARIATION:
+
+Each bullet must focus on DIFFERENT dimension:
+- system design
+- performance optimization
+- scalability
+- testing
+- monitoring
+- collaboration
+- business impact
+
+---
+
+### 🚫 ANTI-REPETITION RULES
+
+- No repeated sentence patterns
+- No template phrasing
+- Each role must feel like different project scope
+
+---
+
+### FINAL QUALITY CHECK
+
+Ensure:
+
+- Skills section is BROAD and DEEP (not JD-limited)
+- All skills in Skills section clearly included
+- No keyword stuffing
+- Natural human tone
+- ATS keyword coverage satisfied
 
 ---
 
