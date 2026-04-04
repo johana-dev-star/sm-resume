@@ -1,0 +1,41 @@
+{
+    "name": "Marlena Lawrinowicz",
+    "email": "marlena.dev@proton.me",
+    "title": "Data Engineer",
+    "location": "Krakow, Poland",
+    "address": "ul. Długa 25, Krakow, Poland",
+    "postalCode": "31-146",
+    "phone": "+48 728 551 904",
+    "linkedin": "",
+    "github": "",
+    "education": [
+      {
+        "degree": "Bachelor's degree, Computer Science",
+        "school": "KTH Royal Institute of Technology",
+        "start_year": "Sep 2014",
+        "end_year": "Jun 2017"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Revolut",
+        "title": "Senior Data Engineer",
+        "start_date": "Oct 2022",
+        "end_date": "Dec 2025"
+      },
+      {
+        "company": "Neko Health",
+        "title": "Data Engineer",
+        "start_date": "May 2020",
+        "end_date": "Sep 2022"
+      },
+      {
+        "company": "Nordic Data Labs",
+        "title": "Software developer",
+        "start_date": "Feb 2018",
+        "end_date": "May 2020",
+        "location": "Stockholm, Sweden"
+      }
+    ]
+  }
+  
