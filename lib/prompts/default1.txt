@@ -96,8 +96,6 @@ Total: ~70 skills (scannable and professional)
 
 - EXCLUDE:
   • Abstract concepts (e.g., Production Automation, Industrial Analytics)
-  • Domain terms (e.g., IIoT, MES, SCADA)
-  • Methodologies (e.g., TDD, BDD)
   • Soft skills or responsibilities
   • Generic phrases (e.g., Data Processing, Real-Time Monitoring)
 
