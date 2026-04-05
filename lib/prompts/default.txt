@@ -110,6 +110,7 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 
 **Bullet:** [Action Verb] + [JD Tech that existed during job period] + [built] + [impact] + [metric]. Verbs: Architected, Engineered, Designed, Built, Developed, Implemented, Optimized, Enhanced, Led, Spearheaded, Automated, Deployed. AVOID: "Responsible for", "Worked on".
 
+**Metrics:** Performance (3x throughput), Scale (50K+ users, 10M+ records), Cost (saved $500K), Time (deployment 2hrs→15min) Team (led team of 10) , DON'T USE percentage.
 ---
 
 **ATS CHECKLIST:** Use EXACT JD phrases (not synonyms). High-priority keywords 3-4x (Skills+Summary+2-3 bullets). All required/preferred JD skills in Skills. Match tech versions. Natural flow, professional tone, varied verbs, strong metrics, domain keywords integrated.
