@@ -27,18 +27,6 @@ EDUCATION:
 
 ## INSTRUCTIONS:
 
-
-Return ONLY valid JSON.
-No markdown. No comments. No explanations.
-
-Format:
-
-```
-{"title":"...","summary":"...","skills":{"Category":["Skill1"]},"experience":[{"title":"...","details":["..."]}]}
-```
-
----
-
 ## **1. ATS + SKILL INTELLIGENCE**
 
 ### **A. EXACT JD KEYWORDS (MANDATORY)**
@@ -106,12 +94,8 @@ Examples:
 
 6 lines EXACT:
 
-1. {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
-2. Expertise in [domain keyword] + [3–4 JD tools]
-3. Proven track record in [impact + domain keyword]
-4. Proficient in [JD + complementary tools]
-5. Experience working in Agile teams
-6. Focus on scalability, performance, and delivery
+{{resumeTitle}} with {{yearsOfExperience}} years in [domain]
+2 other strong summary sentences from JD
 
 Rules:
 
@@ -146,10 +130,11 @@ Rules:
 
 ### RULES:
 
-* Include tools + concepts
-* No duplicates
-* No soft skills
-* Use industry-standard names only
+*Includes only tools and concepts that can be installed, imported, configured, or directly used in code or infrastructure.
+*No soft skills, responsibilities, abstract concepts (e.g., Production Automation, Industrial Analytics)
+*No generic phrases (e.g., Data Processing, Real-Time Monitoring).
+*No duplicates.
+*Use industry-standard names only.
 
 ---
 
@@ -171,6 +156,7 @@ Rules:
 * Mix JD + complementary tools
 * Strong action verbs
 * No repeated phrasing
+* Metrics (DON'T USE %) for 30~40% bullets
 
 ---
 
@@ -208,8 +194,8 @@ Before returning output, ensure:
 * No duplicate skills
 * Bullet counts EXACTLY follow rules
 * Each bullet is 25–35 words
-* Skills count ≥ 40
 * Categories ≥ 5
+* put 30 keywords in Experience section in <b> tag
 
 ---
 
