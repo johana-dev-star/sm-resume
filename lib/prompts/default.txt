@@ -88,7 +88,7 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
   → or directly used in code or infrastructure
 ---
 
-**5. EXPERIENCE** ({{experienceCount}}  entries, 4-8 bullets each): The **JOB DESCRIPTION IS PRIMARY**. Every bullet must be mapped to 1-3 high-priority JD requirements while still accurately reflecting the candidate's real work history. 6-8 bullets/job (recent=8, older=4). 25-35 words/bullet. 2-4 exact JD keywords/bullet. Industry context in 2-3 bullets/job. Overall targeting **ATS score ≥ 95%**.
+**5. EXPERIENCE** ({{experienceCount}}  entries, 4-8 bullets each): The **JOB DESCRIPTION IS PRIMARY**. Every bullet must be mapped to 1-3 high-priority JD requirements while still accurately reflecting the candidate's real work history. 4-8 bullets/job (recent=8, older=4). 20-30 words/bullet. 2-4 exact JD keywords/bullet. Industry context in 2-3 bullets/job. Overall targeting **ATS score ≥ 95%**.
 
 **CRITICAL: JD-FIRST, DETAIL-BASED BULLETS (TARGET ATS ≥ 95%)** - ALWAYS treat the JD as the primary source for what to highlight, but the candidate's experience details as the source of truth:
 1. **Start from provided Details** - For any job that includes "Details", you MUST derive bullets from those actual accomplishments and responsibilities (do not invent unrelated work).
