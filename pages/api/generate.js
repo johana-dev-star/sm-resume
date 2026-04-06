@@ -58,9 +58,10 @@ export default async function handler(req, res) {
       }, new Date());
 
       const latest = experience.reduce((max, job) => {
+        if(end_date == "Present") return new Date();
         const date = parseDate(job.end_date);
         return date > max ? date : max;
-      }, new Date());
+      }, new Date(1900, 0, 1));
 
       const years = (latest - earliest) / (1000 * 60 * 60 * 24 * 365);
       return Math.round(years);
