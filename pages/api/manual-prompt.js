@@ -40,7 +40,16 @@ export default async function handler(req, res) {
         const date = parseDate(job.start_date);
         return date < min ? date : min;
       }, new Date());
-      const years = (new Date() - earliest) / (1000 * 60 * 60 * 24 * 365);
+
+      const latest = experience.reduce((max, job) => {
+        if(job.end_date == "Present") return new Date();
+        const date = parseDate(job.end_date);
+        console.log(date)
+        return date > max ? date : max;
+      }, new Date(1900, 0, 1));
+
+      const years = (latest - earliest) / (1000 * 60 * 60 * 24 * 365);
+
       return Math.round(years);
     };
 
