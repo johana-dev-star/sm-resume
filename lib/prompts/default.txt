@@ -23,7 +23,15 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 
 **INSTRUCTIONS:**
 
-**1. DOMAIN KEYWORDS** (10-15 from JD "About Us"): Identity/Security (OAuth2, JWT, SAML, MFA, SSO, SOC 2, GDPR), Payments (PCI-DSS, fraud detection, KYC/AML, tokenization), Healthcare (HIPAA, HL7, FHIR, EHR), Data (data governance, GDPR, PII protection). Use in Summary (3-5), Skills (dedicated category), Experience (2-3 bullets).
+**1. DOMAIN KEYWORDS** (10-15 from JD "About Us"): 
+
+-Identity/Security (OAuth2, JWT, SAML, MFA, SSO, SOC 2, GDPR), 
+-Payments (PCI-DSS, fraud detection, KYC/AML, tokenization), 
+-Healthcare (HIPAA, HL7, FHIR, EHR), 
+-Data (data governance, GDPR, PII protection).
+
+Use in Summary (3-5), Skills (dedicated category), 
+Experience (2-3 bullets).
 
 ---
 
