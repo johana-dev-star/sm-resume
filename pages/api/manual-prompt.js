@@ -32,7 +32,6 @@ export default async function handler(req, res) {
 
     const calculateYears = (experience) => {
 
-      console.log("aa");
       if (!experience || experience.length === 0) return 0;
       const parseDate = (dateStr) => {
         if (dateStr.toLowerCase() === "present") return new Date();
@@ -49,6 +48,8 @@ export default async function handler(req, res) {
         console.log(date)
         return date > max ? date : max;
       }, new Date(1900, 0, 1));
+
+      console.log(latest);
 
       const years = (latest - earliest) / (1000 * 60 * 60 * 24 * 365);
 
