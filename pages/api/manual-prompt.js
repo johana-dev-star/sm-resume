@@ -31,6 +31,8 @@ export default async function handler(req, res) {
     const profileData = JSON.parse(fs.readFileSync(profilePath, "utf-8"));
 
     const calculateYears = (experience) => {
+
+      console.log("aa");
       if (!experience || experience.length === 0) return 0;
       const parseDate = (dateStr) => {
         if (dateStr.toLowerCase() === "present") return new Date();
