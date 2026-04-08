@@ -127,6 +127,6 @@ Use EXACT JD phrases (not synonyms).
 High-priority keywords 3-4x (Skills+Summary+2-3 bullets).
 All required/preferred JD skills in Skills. Match tech versions. 
 Natural flow, professional tone, varied verbs, strong metrics, domain keywords integrated.
-Put 30 keywords in Experience section <b> tag
+
 
 **OUTPUT:** ONLY valid JSON: {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2"]}]}
