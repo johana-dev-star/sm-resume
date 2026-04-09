@@ -52,8 +52,7 @@ Backend, Frontend, Full Stack, AI, Data Science, ML, LLM, Mobile, or Hybrid.
 4. Rewrite summary, skills, and experience for maximum fit.
 5. Emphasize the most relevant technologies, systems, and impact in the latest roles.
 6. Keep the full resume cohesive and credible from top to bottom.
-7. Put 20 keywords Experience section in <b> tag.
-8. Perform a final quality pass to make the resume top-tier.
+7. Perform a final quality pass to make the resume top-tier.
 
 ---
 
