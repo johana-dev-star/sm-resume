@@ -79,7 +79,7 @@ Experience (2-3 bullets).
 
 ---
 
-**3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain): Line 1: {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]. Line 2: Expertise in [domain keyword] + [3-4 JD techs with versions]. Line 3: Track record in [domain keyword] + [achievement withput metric]. Line 4: Proficient in [3-4 more JD techs]. Line 5: [Soft skill] professional with Agile/leadership experience. Line 6: Focus on [2-3 JD skill areas] + scalable solutions.
+**3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain): {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]. Expertise in [domain keyword] + [3-4 JD techs with versions]. Track record in [domain keyword] + [achievement withput metric]. Proficient in [3-4 more JD techs]. [Soft skill] professional with Agile/leadership experience. Focus on [2-3 JD skill areas] + scalable solutions.
 
 ---
 
