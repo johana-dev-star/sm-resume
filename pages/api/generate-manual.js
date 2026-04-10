@@ -94,7 +94,7 @@ export default async function handler(req, res) {
       email: profileData.email,
       phone: null,
       location: profileData.location,
-      linkedin: null,
+      linkedin: profileData.linkedin,
       website: null,
       summary: resumeContent.summary,
       skills: resumeContent.skills,

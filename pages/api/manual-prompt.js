@@ -31,6 +31,7 @@ export default async function handler(req, res) {
     const profileData = JSON.parse(fs.readFileSync(profilePath, "utf-8"));
 
     const calculateYears = (experience) => {
+
       if (!experience || experience.length === 0) return 0;
       const parseDate = (dateStr) => {
         if (dateStr.toLowerCase() === "present") return new Date();
@@ -40,7 +41,15 @@ export default async function handler(req, res) {
         const date = parseDate(job.start_date);
         return date < min ? date : min;
       }, new Date());
-      const years = (new Date() - earliest) / (1000 * 60 * 60 * 24 * 365);
+
+      const latest = experience.reduce((max, job) => {
+        if(job.end_date == "Present") return new Date();
+        const date = parseDate(job.end_date);
+        return date > max ? date : max;
+      }, new Date(1900, 0, 1));
+
+      const years = (latest - earliest) / (1000 * 60 * 60 * 24 * 365);
+
       return Math.round(years);
     };
 

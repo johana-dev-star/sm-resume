@@ -1,0 +1,43 @@
+{
+    "name": "Marlena Lawrinowicz",
+    "email": "marlena0214@outlook.com",
+    "title": "Software Engineer",
+    "location": "Krakow, Poland",
+    "address": "ul. Grodzka 3/12 , Krakow, Poland",
+    "postalCode": "31-006",
+    "phone": "+48 732 059 327",
+    "linkedin": "",
+    "github": "",
+    "education": [
+      {
+        "degree": "Bachelor's degree, Computer Science",
+        "school": "University of Derby",
+        "start_year": "Sep 2013",
+        "end_year": "Jun 2017"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Capgemini",
+        "title": "Senior Software Engineer",
+        "start_date": "Feb 2022",
+        "end_date": "Oct 2025",
+        "location": "remote"
+      },
+      {
+        "company": "GlobalLogic",
+        "title": "Software Engineer",
+        "start_date": "Mar 2020",
+        "end_date": "Feb 2022",
+        "location": "remote"
+      },
+      {
+        "company": "Darktrace",
+        "title": "Software developer",
+        "start_date": "Sep 2017",
+        "end_date": "Feb 2020",
+        "location": "Cambridge, UK"
+      }
+    ]
+  }
+  

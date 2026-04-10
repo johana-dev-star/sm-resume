@@ -1,0 +1,61 @@
+Act as a top 1% technical resume writer specializing in data engineer resumes.
+
+**🚨 CRITICAL OUTPUT: Return ONLY valid JSON. No markdown, explanations, or extra text.**
+Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
+
+## PROFILE DATA:
+**Candidate:** {{name}}
+**Contact:** {{email}} | {{location}}
+**Experience:** {{yearsOfExperience}} years
+
+**WORK HISTORY:**
+{{workHistory}}
+
+**EDUCATION:**
+{{education}}
+
+---
+
+## JOB DESCRIPTION:
+{{jobDescription}}
+
+---
+
+Hard constraints:
+No chain-of-thought
+Keep it historically and technically believable
+Make recent roles match the JD most strongly
+Avoid repetitive bullets and keyword stuffing
+Use realistic metrics in only 30% to 40% of bullets
+Prefer non-percentage metrics
+Make it sound human, not AI
+Classify skills by more than 4 categories ( more than 5 skills per category) and not separate category title and items into other lines.
+Make summary 3 professional sentences.
+
+--
+BULLET QUALITY REQUIREMENTS
+
+Each bullet must:
+ • Be 20-30 words
+ • Be a complete sentence
+ • Start with a strong action verb
+ • Reference a specific engineering task or system change
+ • Include at least one technology or platform
+ • Reflect realistic data engineering work
+
+--
+Process:
+1. Detect the main role domain from the JD:
+Backend, Frontend, Full Stack, AI, Data Science, ML, LLM, Mobile, or Hybrid.
+2. Extract must-have skills, preferred skills, seniority, domain requirements, ATS keywords, and business/ownership signals.
+3. Reposition my existing background perfectly to align with the role.
+4. Rewrite summary, skills, and experience for maximum fit.
+5. Emphasize the most relevant technologies, systems, and impact in the latest roles.
+6. Keep the full resume cohesive and credible from top to bottom.
+7. Perform a final quality pass to make the resume top-tier.
+
+---
+
+Return ONLY valid JSON: {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2",...]}]}
+Each experience entry must have 4-8 bullets in "details"; each bullet must be 20~30 words.
+
