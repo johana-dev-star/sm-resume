@@ -78,7 +78,7 @@ Use in Experience (2-3 bullets).
 
 ---
 
-**3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain, in-line style ,DON'T Break line, DON't user bracket): {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]. Expertise in [domain keyword] + [3-4 JD techs with versions]. Track record in [domain keyword] + [achievement withput metric]. Proficient in [3-4 more JD techs]. [Soft skill] professional with Agile/leadership experience. Focus on [2-3 JD skill areas] + scalable solutions.
+**3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain, in-line style ,DON'T Break line, DON't user bracket): {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]. Expertise in [domain keyword] + [3-4 JD techs with versions]. Track record in [domain keyword] + [achievement withput metric]. Proficient in [3-4 JD techs]. [Soft skill] professional with Agile/leadership experience. Focus on [2-3 JD skill areas] + scalable solutions.
 
 ---
 
