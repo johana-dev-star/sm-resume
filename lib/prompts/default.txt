@@ -30,8 +30,7 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 -Healthcare ( HL7, FHIR, EHR), 
 -Data (GDPR, data governance, PII protection).
 
-Use in Summary (3-5), Skills (dedicated category), 
-Experience (2-3 bullets).
+Use in Experience (2-3 bullets).
 
 ---
 
