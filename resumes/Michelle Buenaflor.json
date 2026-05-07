@@ -1,0 +1,44 @@
+{
+    "name": "Michelle Buenaflor",
+    "email": "michellemarintech0912@gmail.com",
+    "title": "Senior Software Engineer",
+    "location": "5704 Parkwood Drive, Austin, TX 78735, United States",
+    "postalCode": "",
+    "phone": "",
+    "linkedin": "",
+    "github": "",
+
+
+    "education": [
+        {
+            "degree": "Bachelor's Degree, Computer Science",
+            "school": "Waseda University",
+            "start_year": "Apr 2014",
+            "end_year": "Feb 2018"
+        }
+    ],
+
+    "experience": [
+        {
+            "company": "TaskUs",
+            "title": "Senior Software Engineer",
+            "start_date": "Feb 2022",
+            "end_date": "Dec 2025",
+            "location": "remote"
+        },
+        {
+            "company": "Shopee",
+            "title": "Full Stack Developer",
+            "start_date": "Jan 2020",
+            "end_date": "Dec 2022",
+            "location": "remote"
+        },
+        {
+            "company": "Rakuten",
+            "title": "Full Stack Developer",
+            "start_date": "Apr 2018",
+            "end_date": "11 2019",
+            "location": "Tokyo, Japan"
+        }
+    ]
+}
