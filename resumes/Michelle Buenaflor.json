@@ -2,7 +2,7 @@
     "name": "Michelle Buenaflor",
     "email": "michellemarintech0912@gmail.com",
     "title": "Senior Software Engineer",
-    "location": "5704 Parkwood Drive, Austin, TX 78735, United States",
+    "location": "",
     "postalCode": "",
     "phone": "",
     "linkedin": "",
@@ -12,33 +12,40 @@
     "education": [
         {
             "degree": "Bachelor's Degree, Computer Science",
-            "school": "Waseda University",
-            "start_year": "Apr 2014",
-            "end_year": "Feb 2018"
+            "school": "Odisee University College",
+            "start_year": "Sep 2011",
+            "end_year": "Jul 2014"
         }
     ],
 
     "experience": [
         {
-            "company": "TaskUs",
+            "company": "Capco",
             "title": "Senior Software Engineer",
-            "start_date": "Feb 2022",
-            "end_date": "Dec 2025",
+            "start_date": "Feb 2019",
+            "end_date": "Jan 2021",
             "location": "remote"
         },
         {
-            "company": "Shopee",
-            "title": "Full Stack Developer",
-            "start_date": "Jan 2020",
-            "end_date": "Dec 2022",
-            "location": "remote"
+            "company": "Softeq",
+            "title": "Software Engineer",
+            "start_date": "Sep 2019",
+            "end_date": "Jan 2021",
+            "location": ""
         },
         {
-            "company": "Rakuten",
-            "title": "Full Stack Developer",
-            "start_date": "Apr 2018",
-            "end_date": "11 2019",
-            "location": "Tokyo, Japan"
+            "company": "ASML Holding N.V.",
+            "title": "Software Developer",
+            "start_date": "Jan 2016",
+            "end_date": "Aug 2019",
+            "location": "Veldhoven, Netherlands"
+        },
+        {
+            "company": "Realdolmen",
+            "title": "Junior Developer",
+            "start_date": "Jul 2014",
+            "end_date": "Dec 2015",
+            "location": "Brussels, Belgium"
         }
     ]
 }
