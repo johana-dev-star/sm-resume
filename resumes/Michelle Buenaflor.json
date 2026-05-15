@@ -12,7 +12,7 @@
     "education": [
         {
             "degree": "Bachelor's Degree, Computer Science",
-            "school": "Odisee University College",
+            "school": "Odisee University of applied Sciences",
             "start_year": "Sep 2011",
             "end_year": "Jul 2014"
         }
@@ -31,17 +31,17 @@
             "title": "Software Engineer",
             "start_date": "Sep 2019",
             "end_date": "Jan 2021",
-            "location": ""
+            "location": "remote"
         },
         {
-            "company": "ASML Holding N.V.",
+            "company": "ASML",
             "title": "Software Developer",
             "start_date": "Jan 2016",
             "end_date": "Aug 2019",
             "location": "Veldhoven, Netherlands"
         },
         {
-            "company": "Realdolmen",
+            "company": "Inetum-Realdolmen",
             "title": "Junior Developer",
             "start_date": "Jul 2014",
             "end_date": "Dec 2015",
