@@ -1,5 +1,5 @@
 {
-    "name": "MARLENA LAWRINOWICZ",
+    "name": "MARLENA LAWRYNOWICZ",
     "email": "marlena.dev@outlook.com",
     "title": "Data Engineer",
     "location": "Krakow, Poland",
@@ -21,7 +21,8 @@
         "company": "Revolut",
         "title": "Senior Data Engineer",
         "start_date": "Oct 2022",
-        "end_date": "Dec 2025"
+        "end_date": "Dec 2025",
+        "location": "remote"
       },
       {
         "company": "Neko Health",
@@ -31,10 +32,10 @@
       },
       {
         "company": "Nordic Data Labs",
-        "title": "Software developer",
+        "title": "Data Engineer",
         "start_date": "Feb 2018",
         "end_date": "May 2020",
-        "location": "Stockholm, Sweden"
+        "location": ""
       }
     ]
   }

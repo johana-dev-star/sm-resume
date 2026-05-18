@@ -1,0 +1,58 @@
+{
+    "name": "Anna Karykowska",
+    "title": "Senior Software Engineer",
+    "email": "anna.kary.dev@gmail.com",
+    "phone": "",
+    "location": "Warsaw, Poland",
+    "address": "",
+    "postalCode": "",
+    "linkedin": "",
+    "website": "",
+    "github": "",
+    "experience": [
+      {
+        "company": "Accenture Poland",
+        "title": "Senior Software Engineer",
+        "location": "Remote",
+        "start_date": "Jun 2025",
+        "end_date": "Feb 2026"
+      },
+      {
+        "company": "Netguru",
+        "title": "Software Engineer",
+        "location": "Remote",
+        "start_date": "Dec 2022",
+        "end_date": "May 2024"
+      },
+      {
+        "company": "Blue Harbor Technology",
+        "title": "Full Stack Developer",
+        "location": "Remote",
+        "start_date": "Mar 2021",
+        "end_date": "Nov 2022"
+      },
+      {
+        "company": "Softserve",
+        "title": "Junior Full Stack Developer",
+        "location": "Warsaw, Poland",
+        "start_date": "Oct 2019",
+        "end_date": "Feb 2021"
+      },
+      {
+        "company": "QuickTutor",
+        "title": "Junior Web Developer",
+        "location": "Warsaw, Poland, Part-time",
+        "start_date": "Aug 2018",
+        "end_date": "Sep 2019"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "Vistula University",
+        "start_year": "2015",
+        "end_year": "2019"
+      }
+    ],
+    "resumeStyle": "executive"
+}

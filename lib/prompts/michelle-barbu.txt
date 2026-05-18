@@ -92,8 +92,6 @@ Examples:
 
 ## **4. SUMMARY (STRICT)**
 
-6 lines EXACT:
-
 {{resumeTitle}} with {{yearsOfExperience}} years in [domain]
 2 other strong summary sentences from JD
 
@@ -109,8 +107,8 @@ Rules:
 
 ### REQUIREMENTS:
 
-* 60–80 total skills
-* 6–8 categories
+* 40–60 total skills
+* 5–8 categories
 * 8–12 skills per category
 
 ### DISTRIBUTION:
@@ -145,7 +143,7 @@ Rules:
 ### BULLET COUNT:
 
 * Most recent → EXACTLY 8
-* Second → 7–8
+* Second → 5–7
 * Older → EXACTLY 4
 * NEVER <4 or >8
 
@@ -195,7 +193,6 @@ Before returning output, ensure:
 * Bullet counts EXACTLY follow rules
 * Each bullet is 25–35 words
 * Categories ≥ 5
-* put 30 keywords in Experience section in <b> tag
 
 ---
 
