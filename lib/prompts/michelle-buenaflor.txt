@@ -279,7 +279,7 @@ Bullet distribution:
 
 Each bullet must:
 
-* contain 18–30 words
+* contain 18–25 words
 * start with a strong action verb
 * include 1–3 relevant Job Description concepts naturally
 * include realistic supporting technologies
