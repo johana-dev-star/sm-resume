@@ -31,6 +31,7 @@ Prefer non-percentage metrics
 Make it sound human, not AI
 Classify skills by more than 4 categories ( more than 5 skills per category) and not separate category title and items into other lines.
 Make summary 3 professional sentences.
+Bullet count: latest 6-8, oldest 3-4.
 
 --
 BULLET QUALITY REQUIREMENTS
