@@ -1,4 +1,4 @@
-Act as a top 1% technical resume writer specializing in data engineer resumes.
+Act as a top 1% technical resume writer specializing in senior software engineer resumes.
 
 **🚨 CRITICAL OUTPUT: Return ONLY valid JSON. No markdown, explanations, or extra text.**
 Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
