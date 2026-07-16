@@ -12,7 +12,7 @@ Your goal is to maximize REAL interview probability, not keyword density.
 ============= About Profile ==============
 Name : {{name}}
 
-Contact: {{email}} | {{location}}
+Contact: {{email}} | {{location}} | {{phone}}
 years of experience: {{yearsOfExperience}}
 
 Work history (keep same job count and order in output):
