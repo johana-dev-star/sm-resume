@@ -1,8 +1,8 @@
 {
     "name": "Anna Karykowska",
     "title": "Senior Software Engineer",
-    "email": "anna.kary.dev@gmail.com",
-    "phone": "",
+    "email": "annakarykowska136@gmail.com",
+    "phone": "+48732145537",
     "location": "Warsaw, Poland",
     "address": "",
     "postalCode": "",
@@ -11,47 +11,40 @@
     "github": "",
     "experience": [
       {
-        "company": "Accenture Poland",
+        "company": "Capgemini",
         "title": "Senior Software Engineer",
         "location": "Remote",
-        "start_date": "Jun 2025",
-        "end_date": "Feb 2026"
+        "start_date": "Jul 2024",
+        "end_date": "Present"
       },
       {
-        "company": "Netguru",
-        "title": "Software Engineer",
-        "location": "Remote",
-        "start_date": "Dec 2022",
-        "end_date": "May 2024"
-      },
-      {
-        "company": "Blue Harbor Technology",
+        "company": "Sourcegraph",
         "title": "Full Stack Developer",
         "location": "Remote",
-        "start_date": "Mar 2021",
-        "end_date": "Nov 2022"
+        "start_date": "Dec 2022",
+        "end_date": "Jun 2024"
       },
       {
-        "company": "Softserve",
-        "title": "Junior Full Stack Developer",
-        "location": "Warsaw, Poland",
-        "start_date": "Oct 2019",
-        "end_date": "Feb 2021"
+        "company": "Comarch",
+        "title": "Junior Software Engineer",
+        "location": "Krakow, Poland",
+        "start_date": "Mar 2020",
+        "end_date": "Dec 2022"
       },
       {
-        "company": "QuickTutor",
-        "title": "Junior Web Developer",
-        "location": "Warsaw, Poland, Part-time",
-        "start_date": "Aug 2018",
-        "end_date": "Sep 2019"
+        "company": "Sii Poland",
+        "title": "Junior DevOps Engineer",
+        "location": "Krakow, Poland",
+        "start_date": "Feb 2020",
+        "end_date": "Jul 2018"
       }
     ],
     "education": [
       {
-        "degree": "Bachelor of Science in Computer Science",
-        "school": "Vistula University",
-        "start_year": "2015",
-        "end_year": "2019"
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "AGH University of Krakow",
+        "start_year": "Oct 2015",
+        "end_year": "Jul 2018"
       }
     ],
     "resumeStyle": "executive"
