@@ -92,7 +92,7 @@ export default async function handler(req, res) {
       name: profileData.name,
       title: profileData.title,
       email: profileData.email,
-      phone: null,
+      phone: profileData.phone,
       location: profileData.location,
       linkedin: profileData.linkedin,
       website: null,
