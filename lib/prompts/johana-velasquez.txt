@@ -5,7 +5,7 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 
 ## PROFILE DATA:
 **Candidate:** {{name}}
-**Contact:** {{email}} | {{location}} | {{linkedin}}
+**Contact:** {{email}} | {{location}} | {{phone}} | {{linkedin}}
 **Experience:** {{yearsOfExperience}} years
 
 **WORK HISTORY:**
