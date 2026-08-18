@@ -1,0 +1,52 @@
+{
+    "name": "Jamiel Medeiros",
+    "email": "janielmedeiros81@gmail.com",
+    "title": "Senior Software Engineer",
+    "location": "Palmares, Pernumbuco, Brazil",
+    "phone": "+55 82 99430-5171",
+    "linkedin": "http://linkedin.com/in/janielmedeiros/",
+    "github": "",
+    "education": [
+      {
+        "degree": "B.S. in Computer Engineering",
+        "school": "Universidade Federal de Alagoas"
+      },
+      {
+        "degree": "Technical Degree in Logistics",
+        "school": "Tiradentes University"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Change Healthcare",
+        "title": "Senior Software Engineer",
+        "start_date": "Oct 2023",
+        "end_date": "Present"
+      },
+      {
+        "company": "J&T Express",
+        "title": "Backend Engineer",
+        "start_date": "Apr 2021",
+        "end_date": "Oct 2023"
+      },
+      {
+        "company": "Zup Innovation",
+        "title": "Software Engineer",
+        "start_date": "Oct 2019",
+        "end_date": "Apr 2021"
+      },
+      {
+        "company": "Medical & Dental Clinic Impplant",
+        "title": "Software Engineer",
+        "start_date": "Jun 2018",
+        "end_date": "Oct 2019"
+      },
+      {
+        "company": "LOG Strategy",
+        "title": "Management Intern",
+        "start_date": "Dec 2017",
+        "end_date": "Jun 2018"
+      }
+    ]
+  }
+  
