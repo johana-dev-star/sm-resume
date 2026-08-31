@@ -1,43 +1,43 @@
 {
-    "name": "Georgeta Truca",
-    "email": "geogetatruca@gmail.com",
-    "phone": "+40373803789",
-    "location": "Cluj-Napoca, Cluj, Romania",
-    "postalCode": "400591",
-    "linkedin": "",
-    "github": "",
-    
-    "experience": [
-      {
-        "company": "Tremend Software Consulting",
-        "title": "Senior Software Engineer",
-        "location": "Remote",
-        "start_date": "Jun 2023",
-        "end_date": "Dec 2025"
-      },
-      {
-        "company": "Bento",
-        "title": "Software Engineer",
-        "location": "Remote",
-        "start_date": "Apr 2019",
-        "end_date": "Dec 2022"
-      },
-      {
-        "company": "Netsmart",
-        "title": "Software Engineer",
-        "location": "Istanbul, Turkey",
-        "start_date": "Apr 2014",
-        "end_date": "Mar 2018"
-      }
-    ],
-    
-    "education": [
-      {
-        "degree": "Bachelor's degree, Computer Science",
-        "school": "Bilkent Univeristy",
-        "start_year": "2010",
-        "end_year": "2014"
-      }
-    ]
-  }
+  "name": "Georgeta Truca",
+  "email": "geogetatruca@gmail.com",
+  "phone": "+40373803789",
+  "location": "Cluj-Napoca, Cluj, Romania",
+  "postalCode": "400591",
+  "linkedin": "",
+  "github": "",
+  
+  "experience": [
+    {
+      "company": "Tremend Software Consulting",
+      "title": "Senior Software Engineer",
+      "location": "Remote",
+      "start_date": "Jun 2023",
+      "end_date": "Dec 2025"
+    },
+    {
+      "company": "Bento",
+      "title": "Software Engineer",
+      "location": "Remote",
+      "start_date": "Apr 2019",
+      "end_date": "Dec 2022"
+    },
+    {
+      "company": "Netsmart",
+      "title": "Software Engineer",
+      "location": "Istanbul, Turkey",
+      "start_date": "Apr 2014",
+      "end_date": "Mar 2018"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's degree, Computer Science",
+      "school": "Bilkent Univeristy",
+      "start_year": "2010",
+      "end_year": "2014"
+    }
+  ]
+}
   

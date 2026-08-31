@@ -1,51 +1,51 @@
 {
-    "name": "Anna Karykowska",
-    "title": "Senior Software Engineer",
-    "email": "annakarykowska136@gmail.com",
-    "phone": "+48732145537",
-    "location": "Warsaw, Poland",
-    "address": "",
-    "postalCode": "",
-    "linkedin": "",
-    "website": "",
-    "github": "",
-    "experience": [
-      {
-        "company": "Capgemini",
-        "title": "Senior Software Engineer",
-        "location": "Remote",
-        "start_date": "Jul 2024",
-        "end_date": "Jul 2026"
-      },
-      {
-        "company": "Sourcegraph",
-        "title": "Full Stack Developer",
-        "location": "Remote",
-        "start_date": "Dec 2022",
-        "end_date": "Jun 2024"
-      },
-      {
-        "company": "Comarch",
-        "title": "Junior Software Engineer",
-        "location": "Krakow, Poland",
-        "start_date": "Mar 2020",
-        "end_date": "Dec 2022"
-      },
-      {
-        "company": "Sii Poland",
-        "title": "Junior DevOps Engineer",
-        "location": "Krakow, Poland",
-        "start_date": "Jul 2018",
-        "end_date": "Feb 2020"
-      }
-    ],
-    "education": [
-      {
-        "degree": "Bachelor's Degree in Computer Science",
-        "school": "AGH University of Krakow",
-        "start_year": "Oct 2015",
-        "end_year": "Jul 2018"
-      }
-    ],
-    "resumeStyle": "executive"
+  "name": "Anna Karykowska",
+  "title": "Senior Software Engineer",
+  "email": "annakarykowska136@gmail.com",
+  "phone": "+48732145537",
+  "location": "Warsaw, Poland",
+  "address": "",
+  "postalCode": "",
+  "linkedin": "",
+  "website": "",
+  "github": "",
+  "experience": [
+    {
+      "company": "Capgemini",
+      "title": "Senior Software Engineer",
+      "location": "Remote",
+      "start_date": "Jul 2024",
+      "end_date": "Jul 2026"
+    },
+    {
+      "company": "Sourcegraph",
+      "title": "Full Stack Developer",
+      "location": "Remote",
+      "start_date": "Dec 2022",
+      "end_date": "Jun 2024"
+    },
+    {
+      "company": "Comarch",
+      "title": "Junior Software Engineer",
+      "location": "Krakow, Poland",
+      "start_date": "Mar 2020",
+      "end_date": "Dec 2022"
+    },
+    {
+      "company": "Sii Poland",
+      "title": "Junior DevOps Engineer",
+      "location": "Krakow, Poland",
+      "start_date": "Jul 2018",
+      "end_date": "Feb 2020"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Science",
+      "school": "AGH University of Krakow",
+      "start_year": "Oct 2015",
+      "end_year": "Jul 2018"
+    }
+  ],
+  "resumeStyle": "executive"
 }

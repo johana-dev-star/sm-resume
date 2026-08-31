@@ -1,42 +1,42 @@
 {
-    "name": "Johana Velasquez",
-    "email": "johana.tech.0905@outlook.com",
-    "title": "Senior Software Engineer",
-    "location": "Valledupar, Cesar, Colombia",
-    "postalCode": "200001",
-    "phone": " ",
-    "linkedin": "",
-    "github": "",
-    "education": [
-      {
-        "degree": "Bachelor's degree in Computer Science",
-        "school": "Federal University of Minas Gerais",
-        "start_year": "Feb 2013",
-        "end_year": "Dec 2016"
-      }
-    ],
-    "experience": [
-      {
-        "company": "Curseria",
-        "title": "Senior Software Engineer",
-        "start_date": "Jan 2023",
-        "end_date": "Dec 2025",
-        "location": "Remote"
-      },
-      {
-        "company": "YDX Innovation",
-        "title": "Software Engineer",
-        "start_date": "May 2020",
-        "end_date": "Dec 2022",
-        "location": "Remote"
-      },
-      {
-        "company": "DB1 Group",
-        "title": "Full Stack Engineer",
-        "start_date": "Jan 2017",
-        "end_date": "Apr 2020",
-        "location": "Maringa, Brazil"
-      }
-    ]
-  }
+  "name": "Johana Velasquez",
+  "email": "velasquezjohana261@gmail.com",
+  "title": "Senior Software Engineer",
+  "location": "Valledupar, Cesar, Colombia",
+  "postalCode": "200001",
+  "phone": " ",
+  "linkedin": "",
+  "github": "",
+  "education": [
+    {
+      "degree": "Bachelor's degree in Computer Science",
+      "school": "Federal University of Minas Gerais",
+      "start_year": "Feb 2013",
+      "end_year": "Dec 2016"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Curseria",
+      "title": "Senior Software Engineer",
+      "start_date": "Jan 2023",
+      "end_date": "Dec 2025",
+      "location": "Remote"
+    },
+    {
+      "company": "YDX Innovation",
+      "title": "Software Engineer",
+      "start_date": "May 2020",
+      "end_date": "Dec 2022",
+      "location": "Remote"
+    },
+    {
+      "company": "DB1 Group",
+      "title": "Full Stack Engineer",
+      "start_date": "Jan 2017",
+      "end_date": "Apr 2020",
+      "location": "Maringa, Brazil"
+    }
+  ]
+}
   
