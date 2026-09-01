@@ -1,0 +1,42 @@
+{
+  "name": "Fernand Cazares",
+  "email": "fernandacazares579@outlook.com",
+  "title": "Senior Software Engineer",
+  "location": "Monterrey, Nuevo Leon, Mexico",
+  "postalCode": "",
+  "phone": "",
+  "linkedin": "",
+  "github": "",
+  "education": [
+    {
+      "degree": "Bachelor's degree, Computer Science",
+      "school": "The University of British Columbia",
+      "start_year": "Sep 2013",
+      "end_year": "Jun 2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "EPAM Systems",
+      "title": "Senior Software Engineer",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "location": "Remote"
+    },
+    {
+      "company": "Wizeline",
+      "title": "Software Engineer",
+      "start_date": "Oct 2021",
+      "end_date": "Sep 2024",
+      "location": "Remote"
+    },
+    {
+      "company": "TELUS Digital",
+      "title": "Software Engineer",
+      "start_date": "Feb 2018",
+      "end_date": "Sep 2021",
+      "location": "Remote"
+    }
+  ]
+}
+  
