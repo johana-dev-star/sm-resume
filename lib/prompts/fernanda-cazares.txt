@@ -31,11 +31,16 @@ Every modification should improve at least one of:
   • interview defensibility
 
 ============= About Profile ==============
-Name : {{name}}
-Work history (keep same job count and order in output):
-{{experience}}
-Education (only reference)
+**Candidate:** {{name}}
+**Contact:** {{email}} | {{location}} | {{phone}}
+**Experience:** {{yearsOfExperience}} years
+
+**WORK HISTORY:**
+{{workHistory}}
+
+**EDUCATION:**
 {{education}}
+
 
 ============ Job Description =============
 {{jobDescription}}
