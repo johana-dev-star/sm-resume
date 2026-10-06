@@ -6,7 +6,7 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 ## PROFILE DATA:
 **Candidate:** {{name}}
 **Contact:** {{email}} | {{location}} | {{phone}}
-**Experience:** 10 years
+**Experience:** 11 years
 
 **WORK HISTORY:**
 {{workHistory}}
