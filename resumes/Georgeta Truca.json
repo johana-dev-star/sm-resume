@@ -9,6 +9,13 @@
   
   "experience": [
     {
+      "company": "Capgemini",
+      "title": "Senior Software Engineer",
+      "location": "Remote",
+      "start_date": "Jan 2026",
+      "end_date": "Sep 2026"
+    },
+    {
       "company": "Tremend Software Consulting",
       "title": "Senior Software Engineer",
       "location": "Remote",
