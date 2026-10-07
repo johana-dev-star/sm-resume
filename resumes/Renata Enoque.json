@@ -1,0 +1,46 @@
+{
+  "name": "Renata Enoque",
+  "full name": "Renata Joana de Carvalho Enoque",
+  "email": "renataenoque83@gmail.com",
+  "title": "Senior Software Engineer",
+  "location": "Coruripe,Alagoas, Brazil",
+  "postalCode": "57230-000",
+  "address": "Rua Professora Enny Costa, N 28",
+  "phone": "+55(82)9166-8261",
+  "linkedin": "https://www.linkedin.com/in/renata-enoque-793158437/",
+  "github": "",
+  "birthday": "24/06/1999",
+  "education": [
+    {
+      "degree": "Bachelor's degree in Computer Science",
+      "school": "Bismarck State College"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Amazon Web Services",
+      "title": "Senior Software Engineer",
+      "start_date": "Jan 2025",
+      "end_date": "Jun 2026"
+    },
+    {
+      "company": "NetSutra",
+      "title": "Senior Software Engineer",
+      "start_date": "May 2023",
+      "end_date": "Jan 2025"
+    },
+    {
+      "company": "Astra Canyon",
+      "title": "Software Engineer",
+      "start_date": "Jul 2019",
+      "end_date": "May 2023"
+    },
+    {
+      "company": "SoftServe",
+      "title": "Full Stack Engineer",
+      "start_date": "Feb 2016",
+      "end_date": "Jul 2019"
+    }
+  ]
+}
+  
