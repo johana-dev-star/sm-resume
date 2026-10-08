@@ -1,7 +1,7 @@
 {
     "name": "Anna Karykowska",
     "title": "Senior Software Engineer",
-    "email": "annakarykowska136@gmail.com",
+    "email": "anna.dev9@outlook.com",
     "phone": "",
     "location": "Warsaw, Poland",
     "address": "",
@@ -10,6 +10,13 @@
     "website": "",
     "github": "",
     "experience": [
+      {
+        "company": "Spyrosoft",
+        "title": "Senior Software Engineer",
+        "location": "Remote",
+        "start_date": "Present",
+        "end_date": "Jun 2026"
+      },
       {
         "company": "Accenture Poland",
         "title": "Senior Software Engineer",
