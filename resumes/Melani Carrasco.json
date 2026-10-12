@@ -1,0 +1,36 @@
+{
+    "name": "Melani Carrasco",
+    "email": "male89js@gmail.com",
+    "phone": "+54 9 2646 10-8634",
+    "location": "San Diego, California, United States",
+    "postalCode": "",
+    "linkedin": "https://www.linkedin.com/in/melani-janet-carrasco-fernandez-5942b1437/",
+    "github": "",
+    
+    "experience": [
+      {
+        "company": "menta",
+        "title": "Senior Software Engineer",
+        "location": "Remote",
+        "start_date": "Oct 2024",
+        "end_date": "Present"
+      },
+      {
+        "company": "BairesDev",
+        "title": "Full Stack Engineer",
+        "location": "Remote",
+        "start_date": "May 2019",
+        "end_date": "Aug 2023"
+      }
+    ],
+    
+    "education": [
+      {
+        "degree": "Bachelor's degree, Computer Science",
+        "school": "Carleton University",
+        "start_year": "2014",
+        "end_year": "2018"
+      }
+    ]
+  }
+  
