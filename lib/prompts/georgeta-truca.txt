@@ -1,12 +1,12 @@
 You are a world-class ATS optimization expert. Create a resume that scores 95-100% on ATS.
 
-**🚨 CRITICAL OUTPUT: Return ONLY valid JSON. No markdown, explanations, or extra text. no \n **
+**🚨 CRITICAL OUTPUT: Return ONLY valid JSON. No markdown, explanations, or extra text.**
 Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 
 ## PROFILE DATA:
 **Candidate:** {{name}}
-**Contact:** {{email}} | {{location}} | {{phone}}
-**Experience:** 11 years
+**Contact:** {{email}} | {{location}}
+**Experience:** {{yearsOfExperience}} years
 
 **WORK HISTORY:**
 {{workHistory}}
@@ -21,68 +21,79 @@ Format: {"title":"...","summary":"...","skills":{...},"experience":[...]}
 
 ---
 
-**INSTRUCTIONS:**
+## INSTRUCTIONS:
 
-**1. DOMAIN KEYWORDS** (10-15 from JD "About Us"): 
+### **1. EXTRACT DOMAIN KEYWORDS** (Critical for 98%+ score)
 
--Identity/Security (OAuth2, JWT, SAML, MFA, SSO, SOC 2), 
--Payments (PCI-DSS, fraud detection, KYC/AML coompliance, tokenization), 
--Healthcare ( HL7, FHIR, EHR), 
--Data (GDPR, data governance, PII protection).
+Analyze JD "About Us" section for **10-15 domain/compliance keywords** specific to company's product/industry:
 
-Use in Experience (2-3 bullets).
+**Examples by Domain:**
+- **Identity/Security:** passwordless authentication, zero-trust architecture, OAuth2, JWT, SAML, OpenID Connect, WebAuthn, FIDO2, MFA, SSO, biometric security, encryption, key management, PKI, SOC 2, ISO 27001, GDPR
+- **Payments/FinTech:** PCI-DSS compliance, payment processing, payment infrastructure, fraud detection, KYC/AML, 3D Secure, tokenization, ACH transfers, subscription billing, reconciliation, merchant services, SOC 2
+- **Healthcare:** HIPAA compliance, HL7, FHIR, DICOM, PHI protection, EHR systems, EMR, Epic integration, Cerner, patient privacy, FDA compliance, HITRUST
+- **Data/Analytics:** data warehousing, data governance, Snowflake, data lake, data lakehouse, GDPR compliance, data residency, PII protection, data quality, data lineage
+
+**WHERE TO USE:**
+- Summary: 3-5 domain keywords (lines 2-4)
+- Skills: Dedicated domain category with 10-15s keywords
+- Experience: Each role must include 6–8 bullets total that naturally incorporate domain or compliance keywords.
 
 ---
 
 ### **2. TITLE**
-- **BASE TITLE:** Use the candidate's MOST RECENT job title from their work history (first entry in experience list)
-- **CRITICAL RULE - MATCHING LOGIC:** To determine if titles match, normalize both titles by:
-  1. Remove seniority indicators: "Senior", "Lead", "Principal", "Staff", "Junior", "Entry-Level" (ignore these words)
-  2. Extract core role type: "Full Stack", "Frontend", "Backend", "Software Engineer", "Developer", "Engineer", "Architect", "DevOps", "QA", etc.
-  3. Compare core role types - they MATCH if they refer to the same domain/type, even if wording differs slightly
-  
-**TITLES MATCH IF:**
-- Both are Full Stack roles: "Senior Full Stack Engineer" = "Full Stack Developer" = "Full Stack Software Engineer" = "Full Stack Engineer" → MATCH
-- Both are Frontend roles: "Senior Frontend Engineer" = "Frontend Developer" = "Frontend Software Engineer" → MATCH
-- Both are Backend roles: "Senior Backend Engineer" = "Backend Developer" = "Backend Software Engineer" → MATCH
-- Both are Software Engineer/Developer (general): "Senior Software Engineer" = "Software Developer" = "Senior Developer" → MATCH
-- Both are DevOps roles: "Senior DevOps Engineer" = "DevOps Engineer" = "DevOps Specialist" → MATCH
-
-**TITLES DON'T MATCH IF:**
-- Profile is Full Stack, JD is Frontend-only → NO MATCH (add "Frontend Specialist")
-- Profile is Frontend, JD is Backend-only → NO MATCH (add "Backend Specialist")
-- Profile is Backend, JD is Full Stack → NO MATCH (add "Full Stack Experience")
-- Profile is Software Engineer (general), JD is Frontend-specific → NO MATCH (add "Frontend Specialist")
-
-- **If titles MATCH:** Use format: [Profile's Most Recent Title] | [Key Tech 1] | [Key Tech 2] | [Key Tech 3] | [Key Tech 4] (NO specialization added)
-- **If titles DON'T match:** Use format: [Profile's Most Recent Title] | [JD-Related Specialization] | [Key Tech 1] | [Key Tech 2] | [Key Tech 3] | [Key Tech 4]
-
-- **JD-Related Specialization (ONLY if titles don't match):** Add 1 specialization/role that aligns with the JD focus (e.g., if applying for frontend job with full stack profile: "Frontend Specialist" or "Frontend Lead")
-  - If JD is frontend-focused → "Frontend Specialist" or "Frontend Lead"
-  - If JD is backend-focused → "Backend Specialist" or "Backend Architect"
-  - If JD is Full Stack-focused → "Full Stack Developer" or "Full Stack Experience"
-  - If JD is DevOps-focused → "DevOps Specialist" or "Infrastructure Lead"
-  - If JD is QA-focused → "QA Specialist" or "Quality Assurance Lead"
-  - Match the specialization to the JD's primary focus area
-
-- **Tech Stack:** Extract 4-6 most important technologies/tech stack items from JD (prioritize: frameworks, tools, platforms, methodologies)
-- Separate all items with " | " (space-pipe-space)
-
-- **Examples:**
-  - Profile: "Senior Full Stack Engineer", JD: "Full Stack Developer" → MATCH → "Senior Full Stack Engineer | React | TypeScript | Next.js | AWS" (NO specialization)
-  - Profile: "Full Stack Software Engineer", JD: "Full Stack Developer" → MATCH → "Full Stack Software Engineer | Java | Python | React.js | GCP" (NO specialization)
-  - Profile: "Senior Frontend Software Engineer", JD: "Frontend Developer" → MATCH → "Senior Frontend Software Engineer | React | TypeScript | Next.js | AWS" (NO specialization)
-  - Profile: "Senior Full Stack Engineer", JD: "Frontend Engineer" → NO MATCH → "Senior Full Stack Engineer | Frontend Specialist | React.js | TypeScript | Next.js | AWS"
-  - Profile: "Senior Software Engineer", JD: "Backend Engineer" → NO MATCH → "Senior Software Engineer | Backend Architect | Node.js | Python | Microservices | Docker"
-  - Profile: "Senior Frontend Engineer", JD: "Full Stack Developer" → NO MATCH → "Senior Frontend Engineer | Full Stack Experience | React.js | Node.js | PostgreSQL | AWS"
+- **Use this exact title** (from the candidate's resume) in the JSON "title" field and in the first line of the summary: **{{resumeTitle}}**
+- Do not invent a different job role title; use {{resumeTitle}} verbatim.
 
 ---
 
-**3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain, in-line style ,DON'T Break line, DON't user bracket, Don't exceed 60 words): {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]. Expertise in [domain keyword] + [3-4 JD techs with versions]. Track record in [domain keyword] + [achievement withput metric]. Proficient in [3-4 JD techs]. [Soft skill] professional with Agile/leadership experience. Focus on [2-3 JD skill areas] + scalable solutions.
+### **3. SUMMARY** (5-6 lines, 8-12 JD keywords + 3-5 domain keywords)
+
+**Structure:**
+- **Line 1:** {{resumeTitle}} with {{yearsOfExperience}} years in [domain from JD]
+- **Line 2:** Expertise in [domain keyword] + [3-4 EXACT JD technologies WITH versions if specified]
+- **Line 3:** Proven track record in [domain keyword]
+- **Line 4:** Proficient in [3-4 more JD technologies/methodologies]
+- **Line 5:** [Soft skill from JD] professional with experience in [Agile/leadership/collaboration] in fast-paced environments
+- **Line 6:** Strong focus on [2-3 key JD skill areas] and delivering scalable, production-ready solutions
+
+**Example (FinTech):**
+"Senior Software Engineer with 8 years building scalable fintech platforms. Expertise in payment processing systems, PCI-DSS compliance, React.js 18, Node.js 20, and PostgreSQL. Proven track record implementing fraud detection algorithms that reduced chargebacks. Proficient in AWS infrastructure, Docker, Kubernetes, and KYC/AML compliance frameworks. Collaborative problem-solver with experience leading cross-functional teams in fast-paced startup environments. Strong focus on secure payment infrastructure, regulatory compliance, and delivering high-performance financial applications."
 
 ---
 
-**4. SKILLS** (40-60 total, 5-8 categories): Categories by JD focus (Frontend, Backend, Cloud, DevOps, Security). 8-12 skills/category. Capitalize first letter. NO version spam. Group cloud: "AWS (Lambda, S3, EC2)". 70% JD keywords + 30% complementary. Domain category if relevant (FinTech→"Payment & Compliance", Healthcare→"Healthcare Compliance", Security→"Security & Identity", Data→"Data Governance").
+### **4. SKILLS** (60–75 total skills across 6–7 categories, prioritizing JD keywords over breadth.)
+
+**Rules:**
+- Create categories based on JD focus (Frontend, Backend, Cloud, DevOps, Security, etc.)
+- 8-12 skills per category
+- The categories MUST contain skills technically correct. "e.g.: Node.js or .NET is not programming language"
+- Capitalize first letter of each skill
+- NO version spam: "React.js" NOT "React.js 18, React.js 17, React.js 16"
+- NO database spam: "PostgreSQL" NOT "PostgreSQL 15, 14, 13"
+- Group cloud services: "AWS (Lambda, S3, EC2, RDS)" NOT 25 separate items
+- 70% JD keywords + 30% complementary skills
+
+**Example (Full Stack Engineer):**
+```json
+"skills": {
+  "Frontend": ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Redux", "Vue.js", "HTML5", "CSS3"],
+  "Backend": ["Node.js", "Express.js", "Python", "Django", "FastAPI", "GraphQL", "REST APIs"],
+  "Databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Elasticsearch"],
+  "Cloud & Infrastructure": ["AWS (Lambda, S3, EC2, RDS, CloudFront)", "Docker", "Kubernetes", "Terraform"],
+  "DevOps & CI/CD": ["GitLab CI/CD", "GitHub Actions", "Jenkins", "Datadog", "Prometheus"],
+  "Testing": ["Jest", "Cypress", "Playwright", "React Testing Library"],
+  "Payment & Compliance": ["PCI-DSS", "Payment processing", "Stripe", "Fraud detection", "KYC/AML", "SOC 2"],
+  "Tools": ["Git", "Webpack", "Vite", "Figma", "Jira"]
+}
+```
+Total: ~70 skills (scannable and professional)
+
+**If relevant, create domain-specific category:**
+- FinTech → "Payment & Compliance"
+- Healthcare → "Healthcare Compliance & Standards"
+- Security → "Security & Identity"
+- Data → "Data Governance & Compliance"
+
 - EXCLUDE:
   • Abstract concepts (e.g., Production Automation, Industrial Analytics)
   • Soft skills or responsibilities
@@ -93,39 +104,63 @@ Use in Experience (2-3 bullets).
   → imported
   → configured
   → or directly used in code or infrastructure
+
 ---
 
-**5. EXPERIENCE** ({{experienceCount}}  entries, 4-8 bullets each): The **JOB DESCRIPTION IS PRIMARY**. Every bullet must be mapped to 1-3 high-priority JD requirements while still accurately reflecting the candidate's real work history. 4-8 bullets/job (exactly 6(Latest),6,5,4(oldest)). 20-30 words/bullet. 2-4 exact JD keywords/bullet. Industry context in 2-3 bullets/job. Overall targeting **ATS score ≥ 95%**.
+### **5. EXPERIENCE** ({{experienceCount}} entries, 4-8 bullets each)
 
-**CRITICAL: JD-FIRST, DETAIL-BASED BULLETS (TARGET ATS ≥ 95%)** - ALWAYS treat the JD as the primary source for what to highlight, but the candidate's experience details as the source of truth:
-1. **Start from provided Details** - For any job that includes "Details", you MUST derive bullets from those actual accomplishments and responsibilities (do not invent unrelated work).
-2. **Align to JD for ATS** - Enhance and tailor each bullet by adding JD-relevant keywords, mapping to JD responsibilities, and ensuring strong metrics, with the explicit goal of achieving **ATS ≥ 95%**.
-3. **Maintain authenticity** - Keep the core accomplishments, seniority level, and technologies from the provided details; only refine wording, structure, and keyword usage for ATS optimization.
-4. **If no details provided** - Then (and only then) generate bullets based on the job title, company, dates, and JD requirements, ensuring JD alignment and ATS ≥ 95% while staying plausible for that role.
+**STRICT Requirements (must be followed):**
+- Generate exactly {{experienceCount}} job entries; one entry per job in the work history—no more, no fewer.
+- Bullet count per job: most recent role = 8 bullets, second role = 7 or 8 bullets, older roles = 4 bullets. Each job must have at least 4 and at most 8 bullets.
+- Word count per bullet: every bullet MUST be 25–35 words. Count words; do not write short 1-line bullets or run-on sentences. This is required for ATS and readability.
+- For each work experience, ensure all technologies listed were widely available and commonly used in production during that role's time period; do not include tools, frameworks, or practices released after the role ended or unlikely to have been adopted in that era.
+- Include 2-4 JD keywords per bullet
+- bullet need to include a metric ($, time, scale, users), DON'T Use (%).
+- Ensure 10–20% of bullets include a metric, while the remainder focus on scope, ownership, or architectural impact.
+- Add industry context to 2-3 bullets per job
+- Prioritize JD keywords by frequency in the following order: Job Title > Core Technologies > Domain Compliance > Soft Skills.
 
-**CRITICAL: TECHNOLOGY RELEASE DATES** - You MUST verify that every technology/framework/tool mentioned in experience bullets was actually available/released during that job's time period. Check the job dates (start_date - end_date) and ONLY use technologies that existed at that time. Examples:
-- Angular: Released 2016 → CANNOT use for jobs before 2016
-- React: Released 2013 → CANNOT use for jobs before 2013
-- TypeScript: Released 2012 → CANNOT use for jobs before 2012
-- Vue.js: Released 2014 → CANNOT use for jobs before 2014
-- Next.js: Released 2016 → CANNOT use for jobs before 2016
-- Docker: Released 2013 → CANNOT use for jobs before 2013
-- Kubernetes: Released 2014 → CANNOT use for jobs before 2014
-- AWS Lambda: Released 2014 → CANNOT use for jobs before 2014
-- GraphQL: Released 2015 → CANNOT use for jobs before 2015
-- If unsure about a technology's release date, use generic terms or older alternatives that existed at that time (e.g., for pre-2013 frontend: jQuery, Backbone.js, AngularJS 1.x; for pre-2013 backend: PHP, Java, .NET, Ruby on Rails).
+**Bullet length (20–30 words)—examples:**
+- Too short (❌ ~15 words): "Built APIs for the payment team. Improved latency and reliability."
+- Correct (✅ 20–25 words): "Architected REST and GraphQL APIs for the payment platform using Node.js and PostgreSQL, improving p99 latency and enabling transactions for fintech clients."
+- Correct (✅ 25–35 words): "Led migration of legacy services to Kubernetes and Terraform and standardized CI/CD across 5 teams; implemented monitoring and alerting that cut incident response time by half."
 
-**Bullet:** [Action Verb] + [JD Tech that existed during job period] + [built] + [impact] + [metric]. Verbs: Architected, Engineered, Designed, Built, Developed, Implemented, Optimized, Enhanced, Led, Spearheaded, Automated, Deployed. AVOID: "Responsible for", "Worked on". For 30 % of bullets, includle various metrics.
+**Bullet Structure:**
+[Action Verb] + [JD Technology] + [what you built] + [business impact] 
 
-**Metrics:** Performance (3x throughput), Scale (50K+ users, 10M+ records), Cost (saved $500K), Time (deployment 2hrs→15min) Team (led team of 10) , DON'T USE %.
+**Action Verbs:**
+✅ USE: Architected, Engineered, Designed, Built, Developed, Implemented, Optimized, Enhanced, Led, Spearheaded, Automated, Deployed
+❌ AVOID: "Responsible for", "Duties included", "Tasked with", "Worked on"
+
+**Industry Context Examples:**
+- Amazon → "for e-commerce recommendation system"
+- Stripe → "for fintech payment platform"
+- Salesforce → "for B2B SaaS customers"
+- If unknown → use JD company's industry or default to "SaaS platform"
+
+
+**Example Bullet (with domain keywords):**
+"Architected secure payment processing system using PCI-DSS compliant infrastructure with Node.js, PostgreSQL, and Redis, implementing fraud detection algorithms and tokenization while reducing chargebacks."
+
 ---
 
-**ATS CHECKLIST:** 
+## **🎯 ATS OPTIMIZATION CHECKLIST:**
 
-Use EXACT JD phrases (not synonyms). 
-High-priority keywords 3-4x (Skills+Summary+2-3 bullets).
-All required/preferred JD skills in Skills. Match tech versions.
-Natural flow, professional tone, varied verbs, strong metrics, domain keywords integrated.
+**Keyword Usage:**
+- Use EXACT phrases from JD (not synonyms)
+- High-priority keywords appear 3-4x (Skills + Summary + 2-3 bullets)
+- All required JD skills in Skills section
+- All preferred JD skills in Skills section
+- Technology versions match JD if specified
 
+**Content Quality:**
+- Natural, human-written flow (not robotic)
+- Professional tone throughout
+- Varied action verbs
+- Domain keywords integrated naturally
 
-**OUTPUT:** ONLY valid JSON: {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2"]}]}
+---
+
+Return ONLY valid JSON: {"title":"...","summary":"...","skills":{"Category":["Skill1","Skill2"]},"experience":[{"title":"...","details":["bullet1","bullet2",...]}]}
+Each experience entry must have 4-8 bullets in "details"; each bullet must be 20~30 words.
+
